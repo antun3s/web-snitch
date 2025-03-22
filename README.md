@@ -4,14 +4,7 @@ A minimal Docker container that displays server and client connection informatio
 
 ## What it does
 
-When accessed, it returns plain text with:
-Server:
-- IP
-- Hostname
-- Uptime
-Client:
-- IP: 
-- Header:
+When accessed, it returns plain text with Server info(IP, hostname and uptime) and Client(IP and header).
 
 ## How to use
 
@@ -24,12 +17,12 @@ Access it:
 - Browser: http://localhost:8080
 
 - cli 
-   ```
+   ```bash
    curl http://localhost:8080
    ```
 
 Example output
-   ```
+   ```text
 Server:
 - IP: 172.17.0.2
 - Hostname: b8373070028e
